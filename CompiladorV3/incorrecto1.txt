@@ -1,0 +1,4 @@
+entero x = imprimir;
+si (x == false){
+        imprimir "hola";
+}

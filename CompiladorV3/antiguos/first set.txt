@@ -1,0 +1,54 @@
+def calcular_primeros(gramatica):
+  primeros = {}
+
+  # Dividir la gramática en reglas
+  reglas = gramatica.split('\n')
+
+  # Inicializar los primeros con un conjunto vacío para cada símbolo no terminal
+  for regla in reglas:
+      simbolo_no_terminal = regla.split('->')[0].strip()
+      primeros[simbolo_no_terminal] = set()
+
+  # Procesar cada regla
+  for _ in range(len(reglas)):
+      for regla in reglas:
+          partes = regla.split('->')
+          simbolo_no_terminal = partes[0].strip()
+          if len(partes) > 1:
+              producciones = partes[1].strip().split('|')
+              for produccion in producciones:
+                  simbolos = produccion.strip().split(' ')
+                  if simbolos[0].islower() or simbolos[0] == '':
+                      primeros[simbolo_no_terminal].add(simbolos[0])
+                  else:
+                      primeros_simbolo = obtener_primeros(simbolos, primeros)
+                      primeros[simbolo_no_terminal].update(primeros_simbolo)
+
+  return primeros
+
+def obtener_primeros(simbolos, primeros):
+  primeros_simbolo = set()
+  for simbolo in simbolos:
+      if simbolo.islower() or simbolo == '':
+          primeros_simbolo.add(simbolo)
+          break
+      else:
+          if simbolo in primeros:
+              primeros_simbolo.update(primeros[simbolo])
+              if '' not in primeros[simbolo]:
+                  break
+          else:
+              primeros_simbolo.add(simbolo)
+              break
+  return primeros_simbolo
+
+# Leer la gramática desde un archivo de texto
+with open('gram.txt', 'r') as file:
+  gramatica = file.read()
+
+# Calcular el conjunto de primeros
+primeros = calcular_primeros(gramatica)
+
+# Imprimir el resultado en consola
+for simbolo, primeros_simbolo in primeros.items():
+  print(f"{simbolo}: {primeros_simbolo}")

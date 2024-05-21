@@ -1,0 +1,6 @@
+entero i;
+caracter vocal = 'a';
+
+para(i = 0; i < 10; i = i + 1) {
+    imprimir i;
+}

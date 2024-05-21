@@ -1,0 +1,17 @@
+funcion resta (entero x , entero y) {
+    entero resultado = x - y;
+    imprimir resultado;
+
+    regresa resultado -1 +x;
+}
+
+entero a = 1;
+mientras (a < 10) {
+    entero b = 2;
+    si (b) {
+        imprimir "si";
+    }
+    sino {
+        imprimir "no";
+    }     
+}

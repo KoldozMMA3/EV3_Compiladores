@@ -1,0 +1,10 @@
+integer a = 1;
+mientras (a < 10) {
+    entero b = 2;
+    si (b) {
+        imprimir "si";
+    }
+    sino {
+        imprimir "no"
+    }     
+}

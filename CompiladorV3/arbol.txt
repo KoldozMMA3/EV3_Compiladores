@@ -1,0 +1,397 @@
+digraph G {
+15 [style = filled fillcolor= yellow label = <Symbol: FUNCION<BR/>Lexeme: 'funcion'>]
+3 [style = filled fillcolor= brown label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+3 -> 15
+14 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'resta'>]
+3 [style = filled fillcolor= brown label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+3 -> 14
+13 [style = filled fillcolor= yellow label = <Symbol: PARENTESIS_ABRIR<BR/>Lexeme: '('>]
+3 [style = filled fillcolor= brown label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+3 -> 13
+19 [style = filled fillcolor= yellow label = <Symbol: DATO_ENTERO<BR/>Lexeme: 'entero'>]
+18 [style = filled fillcolor= brown label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+18 -> 19
+18 [style = filled fillcolor= yellow label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+12 [style = filled fillcolor= brown label = <Symbol: PARAMETRO<BR/>Lexeme: 'None'>]
+12 -> 18
+17 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'x'>]
+12 [style = filled fillcolor= brown label = <Symbol: PARAMETRO<BR/>Lexeme: 'None'>]
+12 -> 17
+21 [style = filled fillcolor= yellow label = <Symbol: COMA<BR/>Lexeme: ','>]
+16 [style = filled fillcolor= brown label = <Symbol: AG_PARAMETRO<BR/>Lexeme: 'None'>]
+16 -> 21
+25 [style = filled fillcolor= yellow label = <Symbol: DATO_ENTERO<BR/>Lexeme: 'entero'>]
+24 [style = filled fillcolor= brown label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+24 -> 25
+24 [style = filled fillcolor= yellow label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+20 [style = filled fillcolor= brown label = <Symbol: PARAMETRO<BR/>Lexeme: 'None'>]
+20 -> 24
+23 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'y'>]
+20 [style = filled fillcolor= brown label = <Symbol: PARAMETRO<BR/>Lexeme: 'None'>]
+20 -> 23
+22 [style = filled fillcolor= yellow label = <Symbol: AG_PARAMETRO<BR/>Lexeme: 'None'>]
+20 [style = filled fillcolor= brown label = <Symbol: PARAMETRO<BR/>Lexeme: 'None'>]
+20 -> 22
+20 [style = filled fillcolor= yellow label = <Symbol: PARAMETRO<BR/>Lexeme: 'None'>]
+16 [style = filled fillcolor= brown label = <Symbol: AG_PARAMETRO<BR/>Lexeme: 'None'>]
+16 -> 20
+16 [style = filled fillcolor= yellow label = <Symbol: AG_PARAMETRO<BR/>Lexeme: 'None'>]
+12 [style = filled fillcolor= brown label = <Symbol: PARAMETRO<BR/>Lexeme: 'None'>]
+12 -> 16
+12 [style = filled fillcolor= yellow label = <Symbol: PARAMETRO<BR/>Lexeme: 'None'>]
+3 [style = filled fillcolor= brown label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+3 -> 12
+11 [style = filled fillcolor= yellow label = <Symbol: PARENTESIS_CERRAR<BR/>Lexeme: ')'>]
+3 [style = filled fillcolor= brown label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+3 -> 11
+10 [style = filled fillcolor= yellow label = <Symbol: LLAVE_ABRIR<BR/>Lexeme: '{'>]
+3 [style = filled fillcolor= brown label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+3 -> 10
+32 [style = filled fillcolor= yellow label = <Symbol: DATO_ENTERO<BR/>Lexeme: 'entero'>]
+31 [style = filled fillcolor= brown label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+31 -> 32
+31 [style = filled fillcolor= yellow label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+28 [style = filled fillcolor= brown label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+28 -> 31
+30 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'resultado'>]
+28 [style = filled fillcolor= brown label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+28 -> 30
+34 [style = filled fillcolor= yellow label = <Symbol: IGUALDAD<BR/>Lexeme: '='>]
+29 [style = filled fillcolor= brown label = <Symbol: ASG_VARIABLE<BR/>Lexeme: 'None'>]
+29 -> 34
+38 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'x'>]
+36 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+36 -> 38
+37 [style = filled fillcolor= yellow label = <Symbol: LLAMAR_FUNC<BR/>Lexeme: 'None'>]
+36 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+36 -> 37
+36 [style = filled fillcolor= yellow label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+33 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+33 -> 36
+41 [style = filled fillcolor= yellow label = <Symbol: OP_RESTA<BR/>Lexeme: '-'>]
+35 [style = filled fillcolor= brown label = <Symbol: OP<BR/>Lexeme: 'None'>]
+35 -> 41
+43 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'y'>]
+40 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+40 -> 43
+42 [style = filled fillcolor= yellow label = <Symbol: LLAMAR_FUNC<BR/>Lexeme: 'None'>]
+40 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+40 -> 42
+40 [style = filled fillcolor= yellow label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+35 [style = filled fillcolor= brown label = <Symbol: OP<BR/>Lexeme: 'None'>]
+35 -> 40
+39 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+35 [style = filled fillcolor= brown label = <Symbol: OP<BR/>Lexeme: 'None'>]
+35 -> 39
+35 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+33 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+33 -> 35
+33 [style = filled fillcolor= yellow label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+29 [style = filled fillcolor= brown label = <Symbol: ASG_VARIABLE<BR/>Lexeme: 'None'>]
+29 -> 33
+29 [style = filled fillcolor= yellow label = <Symbol: ASG_VARIABLE<BR/>Lexeme: 'None'>]
+28 [style = filled fillcolor= brown label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+28 -> 29
+28 [style = filled fillcolor= yellow label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+9 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+9 -> 28
+27 [style = filled fillcolor= yellow label = <Symbol: P_COMA<BR/>Lexeme: ';'>]
+9 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+9 -> 27
+47 [style = filled fillcolor= yellow label = <Symbol: IMPRESOR<BR/>Lexeme: 'imprimir'>]
+26 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+26 -> 47
+51 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'resultado'>]
+49 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+49 -> 51
+50 [style = filled fillcolor= yellow label = <Symbol: LLAMAR_FUNC<BR/>Lexeme: 'None'>]
+49 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+49 -> 50
+49 [style = filled fillcolor= yellow label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+46 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+46 -> 49
+48 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+46 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+46 -> 48
+46 [style = filled fillcolor= yellow label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+26 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+26 -> 46
+45 [style = filled fillcolor= yellow label = <Symbol: P_COMA<BR/>Lexeme: ';'>]
+26 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+26 -> 45
+44 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+26 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+26 -> 44
+26 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+9 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+9 -> 26
+9 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+3 [style = filled fillcolor= brown label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+3 -> 9
+8 [style = filled fillcolor= yellow label = <Symbol: REGRESA<BR/>Lexeme: 'regresa'>]
+3 [style = filled fillcolor= brown label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+3 -> 8
+55 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'resultado'>]
+53 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+53 -> 55
+54 [style = filled fillcolor= yellow label = <Symbol: LLAMAR_FUNC<BR/>Lexeme: 'None'>]
+53 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+53 -> 54
+53 [style = filled fillcolor= yellow label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+7 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+7 -> 53
+58 [style = filled fillcolor= yellow label = <Symbol: OP_RESTA<BR/>Lexeme: '-'>]
+52 [style = filled fillcolor= brown label = <Symbol: OP<BR/>Lexeme: 'None'>]
+52 -> 58
+59 [style = filled fillcolor= yellow label = <Symbol: NUM_ENTERO<BR/>Lexeme: '1'>]
+57 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+57 -> 59
+57 [style = filled fillcolor= yellow label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+52 [style = filled fillcolor= brown label = <Symbol: OP<BR/>Lexeme: 'None'>]
+52 -> 57
+62 [style = filled fillcolor= yellow label = <Symbol: OP_SUMA<BR/>Lexeme: '+'>]
+56 [style = filled fillcolor= brown label = <Symbol: OP<BR/>Lexeme: 'None'>]
+56 -> 62
+64 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'x'>]
+61 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+61 -> 64
+63 [style = filled fillcolor= yellow label = <Symbol: LLAMAR_FUNC<BR/>Lexeme: 'None'>]
+61 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+61 -> 63
+61 [style = filled fillcolor= yellow label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+56 [style = filled fillcolor= brown label = <Symbol: OP<BR/>Lexeme: 'None'>]
+56 -> 61
+60 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+56 [style = filled fillcolor= brown label = <Symbol: OP<BR/>Lexeme: 'None'>]
+56 -> 60
+56 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+52 [style = filled fillcolor= brown label = <Symbol: OP<BR/>Lexeme: 'None'>]
+52 -> 56
+52 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+7 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+7 -> 52
+7 [style = filled fillcolor= yellow label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+3 [style = filled fillcolor= brown label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+3 -> 7
+6 [style = filled fillcolor= yellow label = <Symbol: P_COMA<BR/>Lexeme: ';'>]
+3 [style = filled fillcolor= brown label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+3 -> 6
+5 [style = filled fillcolor= yellow label = <Symbol: LLAVE_CERRAR<BR/>Lexeme: '}'>]
+3 [style = filled fillcolor= brown label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+3 -> 5
+4 [style = filled fillcolor= yellow label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+3 [style = filled fillcolor= brown label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+3 -> 4
+3 [style = filled fillcolor= yellow label = <Symbol: FUNC<BR/>Lexeme: 'None'>]
+0 [style = filled fillcolor= brown label = <Symbol: INICIO<BR/>Lexeme: 'None'>]
+0 -> 3
+71 [style = filled fillcolor= yellow label = <Symbol: DATO_ENTERO<BR/>Lexeme: 'entero'>]
+70 [style = filled fillcolor= brown label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+70 -> 71
+70 [style = filled fillcolor= yellow label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+67 [style = filled fillcolor= brown label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+67 -> 70
+69 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'a'>]
+67 [style = filled fillcolor= brown label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+67 -> 69
+73 [style = filled fillcolor= yellow label = <Symbol: IGUALDAD<BR/>Lexeme: '='>]
+68 [style = filled fillcolor= brown label = <Symbol: ASG_VARIABLE<BR/>Lexeme: 'None'>]
+68 -> 73
+76 [style = filled fillcolor= yellow label = <Symbol: NUM_ENTERO<BR/>Lexeme: '1'>]
+75 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+75 -> 76
+75 [style = filled fillcolor= yellow label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+72 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+72 -> 75
+74 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+72 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+72 -> 74
+72 [style = filled fillcolor= yellow label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+68 [style = filled fillcolor= brown label = <Symbol: ASG_VARIABLE<BR/>Lexeme: 'None'>]
+68 -> 72
+68 [style = filled fillcolor= yellow label = <Symbol: ASG_VARIABLE<BR/>Lexeme: 'None'>]
+67 [style = filled fillcolor= brown label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+67 -> 68
+67 [style = filled fillcolor= yellow label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+2 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+2 -> 67
+66 [style = filled fillcolor= yellow label = <Symbol: P_COMA<BR/>Lexeme: ';'>]
+2 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+2 -> 66
+86 [style = filled fillcolor= yellow label = <Symbol: MIENTRAS<BR/>Lexeme: 'mientras'>]
+65 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+65 -> 86
+85 [style = filled fillcolor= yellow label = <Symbol: PARENTESIS_ABRIR<BR/>Lexeme: '('>]
+65 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+65 -> 85
+88 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'a'>]
+84 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+84 -> 88
+87 [style = filled fillcolor= yellow label = <Symbol: LLAMAR_FUNC<BR/>Lexeme: 'None'>]
+84 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+84 -> 87
+84 [style = filled fillcolor= yellow label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+65 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+65 -> 84
+89 [style = filled fillcolor= yellow label = <Symbol: MENOR_Q<BR/>Lexeme: 'menor a'>]
+83 -> 89
+83 [style = filled fillcolor= yellow label = <Symbol: COMPARACIONES<BR/>Lexeme: 'None'>]
+65 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+65 -> 83
+90 [style = filled fillcolor= yellow label = <Symbol: NUM_ENTERO<BR/>Lexeme: '10'>]
+82 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+82 -> 90
+82 [style = filled fillcolor= yellow label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+65 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+65 -> 82
+81 [style = filled fillcolor= yellow label = <Symbol: PARENTESIS_CERRAR<BR/>Lexeme: ')'>]
+65 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+65 -> 81
+80 [style = filled fillcolor= yellow label = <Symbol: LLAVE_ABRIR<BR/>Lexeme: '{'>]
+65 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+65 -> 80
+97 [style = filled fillcolor= yellow label = <Symbol: DATO_ENTERO<BR/>Lexeme: 'entero'>]
+96 [style = filled fillcolor= brown label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+96 -> 97
+96 [style = filled fillcolor= yellow label = <Symbol: TIPO_DATO<BR/>Lexeme: 'None'>]
+93 [style = filled fillcolor= brown label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+93 -> 96
+95 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'b'>]
+93 [style = filled fillcolor= brown label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+93 -> 95
+99 [style = filled fillcolor= yellow label = <Symbol: IGUALDAD<BR/>Lexeme: '='>]
+94 [style = filled fillcolor= brown label = <Symbol: ASG_VARIABLE<BR/>Lexeme: 'None'>]
+94 -> 99
+102 [style = filled fillcolor= yellow label = <Symbol: NUM_ENTERO<BR/>Lexeme: '2'>]
+101 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+101 -> 102
+101 [style = filled fillcolor= yellow label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+98 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+98 -> 101
+100 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+98 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+98 -> 100
+98 [style = filled fillcolor= yellow label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+94 [style = filled fillcolor= brown label = <Symbol: ASG_VARIABLE<BR/>Lexeme: 'None'>]
+94 -> 98
+94 [style = filled fillcolor= yellow label = <Symbol: ASG_VARIABLE<BR/>Lexeme: 'None'>]
+93 [style = filled fillcolor= brown label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+93 -> 94
+93 [style = filled fillcolor= yellow label = <Symbol: DECLARACION<BR/>Lexeme: 'None'>]
+79 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+79 -> 93
+92 [style = filled fillcolor= yellow label = <Symbol: P_COMA<BR/>Lexeme: ';'>]
+79 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+79 -> 92
+111 [style = filled fillcolor= yellow label = <Symbol: CONDICIONES_SI<BR/>Lexeme: 'si'>]
+91 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+91 -> 111
+110 [style = filled fillcolor= yellow label = <Symbol: PARENTESIS_ABRIR<BR/>Lexeme: '('>]
+91 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+91 -> 110
+115 [style = filled fillcolor= yellow label = <Symbol: IDENTIFICADOR<BR/>Lexeme: 'b'>]
+113 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+113 -> 115
+114 [style = filled fillcolor= yellow label = <Symbol: LLAMAR_FUNC<BR/>Lexeme: 'None'>]
+113 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+113 -> 114
+113 [style = filled fillcolor= yellow label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+109 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+109 -> 113
+112 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+109 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+109 -> 112
+109 [style = filled fillcolor= yellow label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+91 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+91 -> 109
+108 [style = filled fillcolor= yellow label = <Symbol: PARENTESIS_CERRAR<BR/>Lexeme: ')'>]
+91 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+91 -> 108
+107 [style = filled fillcolor= yellow label = <Symbol: LLAVE_ABRIR<BR/>Lexeme: '{'>]
+91 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+91 -> 107
+119 [style = filled fillcolor= yellow label = <Symbol: IMPRESOR<BR/>Lexeme: 'imprimir'>]
+106 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+106 -> 119
+122 [style = filled fillcolor= yellow label = <Symbol: CADENA_TEXTO<BR/>Lexeme: '"si"'>]
+121 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+121 -> 122
+121 [style = filled fillcolor= yellow label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+118 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+118 -> 121
+120 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+118 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+118 -> 120
+118 [style = filled fillcolor= yellow label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+106 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+106 -> 118
+117 [style = filled fillcolor= yellow label = <Symbol: P_COMA<BR/>Lexeme: ';'>]
+106 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+106 -> 117
+116 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+106 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+106 -> 116
+106 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+91 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+91 -> 106
+105 [style = filled fillcolor= yellow label = <Symbol: LLAVE_CERRAR<BR/>Lexeme: '}'>]
+91 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+91 -> 105
+126 [style = filled fillcolor= yellow label = <Symbol: CONDICIONES_SINO<BR/>Lexeme: 'sino'>]
+104 [style = filled fillcolor= brown label = <Symbol: SINO<BR/>Lexeme: 'None'>]
+104 -> 126
+125 [style = filled fillcolor= yellow label = <Symbol: LLAVE_ABRIR<BR/>Lexeme: '{'>]
+104 [style = filled fillcolor= brown label = <Symbol: SINO<BR/>Lexeme: 'None'>]
+104 -> 125
+130 [style = filled fillcolor= yellow label = <Symbol: IMPRESOR<BR/>Lexeme: 'imprimir'>]
+124 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+124 -> 130
+133 [style = filled fillcolor= yellow label = <Symbol: CADENA_TEXTO<BR/>Lexeme: '"no"'>]
+132 [style = filled fillcolor= brown label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+132 -> 133
+132 [style = filled fillcolor= yellow label = <Symbol: DATO<BR/>Lexeme: 'None'>]
+129 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+129 -> 132
+131 [style = filled fillcolor= yellow label = <Symbol: OP<BR/>Lexeme: 'None'>]
+129 [style = filled fillcolor= brown label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+129 -> 131
+129 [style = filled fillcolor= yellow label = <Symbol: CALCULADORA<BR/>Lexeme: 'None'>]
+124 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+124 -> 129
+128 [style = filled fillcolor= yellow label = <Symbol: P_COMA<BR/>Lexeme: ';'>]
+124 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+124 -> 128
+127 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+124 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+124 -> 127
+124 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+104 [style = filled fillcolor= brown label = <Symbol: SINO<BR/>Lexeme: 'None'>]
+104 -> 124
+123 [style = filled fillcolor= yellow label = <Symbol: LLAVE_CERRAR<BR/>Lexeme: '}'>]
+104 [style = filled fillcolor= brown label = <Symbol: SINO<BR/>Lexeme: 'None'>]
+104 -> 123
+104 [style = filled fillcolor= yellow label = <Symbol: SINO<BR/>Lexeme: 'None'>]
+91 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+91 -> 104
+103 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+91 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+91 -> 103
+91 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+79 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+79 -> 91
+79 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+65 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+65 -> 79
+78 [style = filled fillcolor= yellow label = <Symbol: LLAVE_CERRAR<BR/>Lexeme: '}'>]
+65 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+65 -> 78
+77 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+65 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+65 -> 77
+65 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+2 [style = filled fillcolor= brown label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+2 -> 65
+2 [style = filled fillcolor= yellow label = <Symbol: SENTENCIA<BR/>Lexeme: 'None'>]
+0 [style = filled fillcolor= brown label = <Symbol: INICIO<BR/>Lexeme: 'None'>]
+0 -> 2
+}
